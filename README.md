@@ -7,6 +7,20 @@ train_data.csv: Contains training data with text and corresponding labels.
 validation_data.csv: Contains validation data.
 test_data.csv: Contains test data.
 metadata.json: Provides details about the dataset structure and label description.
+Each instance in the dataset is assigned one of the following labels:
+Depressive
+Non-Depressive
+Neutral
+Major Depressive Disorder (MDD) sub-categories:
+PSLM
+LIP
+SWC
+SD
+FLE
+FWG
+DC
+PAR
+RTDS
 Citation
 If you use this dataset in your research, please cite the following:
 
