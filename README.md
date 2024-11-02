@@ -1,5 +1,5 @@
 # Code-Mixed-Kannada-English-Dataset-for-Depression-Detection
-This dataset contains code-mixed Kannada-English text data labeled for detecting depressive tendencies. It includes four categories of labels: Depressive, Non-Depressive, Neutral, and Major Depressive Disorder (MDD). The dataset can be used for developing machine learning and deep learning models for depression detection using Natural Language Processing (NLP).
+This dataset contains code-mixed Kannada-English text data labeled for detecting depressive tendencies. It includes four categories of labels: Depressive, Non-Depressive and Neutral. The dataset can be used for developing machine learning and deep learning models for depression detection using Natural Language Processing (NLP).
 The dataset consists of 6,034 total instances, divided into Training, Validation, and Testing subsets for each category.
 Within the Depressive class, the dataset also includes sub-categories reflecting various symptoms of Major Depressive Disorder (MDD) based on DSM-5 diagnostic criteria. These sub-categories include Persistent Sadness or Low Mood (PSLM), Loss of Interest or Pleasure (LIP), and others.
 File Structure
@@ -11,16 +11,16 @@ Each instance in the dataset is assigned one of the following labels:
 Depressive
 Non-Depressive
 Neutral
-Major Depressive Disorder (MDD) sub-categories:
-PSLM
-LIP
-SWC
-SD
-FLE
-FWG
-DC
-PAR
-RTDS
+If the text samples are Depressive then Major Depressive Disorder (MDD) sub-categories:
+Persistent Sadness or Low Mood (PSLM)
+Loss of Interest or Pleasure (LIP)
+Significant Weight Change (SWC)
+Sleep Disturbances (SD)
+Fatigue or Loss of Energy (FLE)
+Feelings of Worthlessness or Guilt (FWG)
+Difficulty Concentrating (DC)
+Psychomotor Agitation or Retardation (PAR)
+Recurrent Thoughts of Death or Suicide (RTDS)
 Citation
 If you use this dataset in your research, please cite the following:
 
